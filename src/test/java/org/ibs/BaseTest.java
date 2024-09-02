@@ -10,8 +10,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-public class FirstTest {
+public class BaseTest {
 
+    //  Тест проверяющий добавлене не экзотического овоща
     @Test
     void testAddVegetable() {
 
@@ -55,6 +56,7 @@ public class FirstTest {
         driver.quit();
     }
 
+    // Тест проверяющий добавление экзотичсекого фрукта
     @Test
     void testAddFruit() {
 
